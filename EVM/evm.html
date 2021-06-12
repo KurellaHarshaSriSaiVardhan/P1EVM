@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EVM</title>
+	<style type="text/css">
+	body
+	{
+		background:url("gf.jpg");
+	}
+		table
+		{
+			border:4px solid grey;
+			border-radius: 5px;
+		}
+		td
+		{
+			border:2px solid violet;
+			border-radius: 5px;
+		}
+		img
+		{
+			height: 50px;
+			width: 50px;
+		}
+		.co
+		{
+			height: 30px;
+			width: 100px;
+			padding: 8px;
+			background:skyblue;
+			visibility:hidden;
+		}
+		input
+		{
+			height: 200px;
+			width: 250px;
+			background:orange;
+			font-size: 40px;
+			text-align: center;
+		}
+		.ca
+		{
+            padding:10px;
+		}
+		.ac
+		{
+			height: 20px;
+			width: 30px;
+		}
+		.btn
+		{
+			height: 30px;
+			width: 100px;
+			border-radius: 50px;
+			font-family: sans-serif;
+			font-size: 20px;
+		}
+		.ta
+		{
+			opacity:0.3;
+			background:white;
+		}
+		.dull
+		{
+			visibility:hidden;
+		}
+		.sak
+		{
+			height: 120px;
+			width: 120px;
+			align-items: center;
+		}
+		.par
+		{
+			border:none;
+
+		}
+		#onn
+		{
+			height: 100px;
+			width:100px;		
+		}
+		span
+		{
+			font-family:Impact;
+			color: blue;
+
+		}
+		figcaption
+		{
+			color:silver;
+			font-family:Impact;
+		}
+		h1
+		{
+			color:white;
+			text-align: center;
+			font-family: Sitka Small;
+		}
+		#tq
+		{
+			background:black;
+		}
+		
+	</style>
+	<script src="evm.js"></script>
+</head>
+<body onload="start()">
+	<h1>BALLET BOX[  EVM  ]</h1>
+<table class="par" cellspacing="75px">
+	<tr><td>
+		<table  id="tab" class="ta">
+			<tr><td><span>Congress</span></td><td><img src="cong.png"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png"
+				class="co" id="qa" onclick="ha();" name="qa" ></td>
+		</tr>
+		<tr>
+			<td><span>BJP</span></td><td><img src="bj.jpg"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co" 
+				id="qb" onclick="hb();" name="qa"></td>
+		</tr>
+		<tr>
+			<td><span>TDP</span></td><td><img src="tdp.png"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+				id="qc" onclick="hc();" name="qa"></td>
+		</tr>
+		<tr>
+			<td><span>YSR Congress Party</span></td><td><img src="f.png"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+				 id="qd" onclick="hd();"></td>
+		</tr>
+		<tr>
+			<td><span>Loksatta</span></td><td><img src="ls.png"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+				id="qe" onclick="he();"></td>
+		</tr>
+		<tr>
+			<td><span>TRS</span></td><td><img src="trs.jpg"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+				id="qf" onclick="hf();"></td>
+		</tr>
+			<td><span>JSP</span></td><td><img src="pk.png"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+			id="qg" onclick="hg();"></td>
+		</tr>
+		<td><span>NOTA</span></td><td><img src="nt.jpg"></td><td><img src="re.png" class="ac">&nbsp;&nbsp;<img src="b.png" class="co"
+			id="qh" onclick="hh();"></td>
+		</tr>
+</table>
+	</td>
+		<td class="par">
+			<table class="par">
+				<tr><td align="center" class="par">
+					<table class="par"><tr><td class="par"><img src="ec.png" class="sak" 
+						id="tex"></td></tr></table>
+					<!--<input type="text" name="tex" id="tex" autocomplete="off">-->
+				</td></tr>
+				<tr><td align="right" bgcolor="blue" class="par">
+					<img src="20.png" id="pow">
+					<figcaption>Power</figcaption>
+				</td></tr>
+				<tr><td align="center" class="par"><img src="on.png" id="onn" name="onn" value="onn" onclick="on();" ondblclick="of();"><br></td></tr>
+				<tr><td align="center" id="dull" class="dull">
+					<span align="left">CONFIRM</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span align="left">COUNT</span><br><br>
+					<img src="gt.png" onclick="return conf();">&nbsp;<img src="it.png" onclick="cancel();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="gt.png" onclick="displaywin();">
+					&nbsp;<img src="it.png" onclick="closewin();"><br>
+                    <img src="la.png" onclick="lar();">&nbsp;<img src="ra.png" onclick="rar();">
+				</td></tr>
+
+
+
+			</table>
+		</td></tr>
+</table>
+
+
+</body>
+</html>
